@@ -1,0 +1,25 @@
+{
+  "name": "when.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donley828/when.js.git"
+  },
+  "author": "donley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donley828/when.js/issues"
+  },
+  "homepage": "https://github.com/donley828/when.js#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.0.1"
+  }
+}
