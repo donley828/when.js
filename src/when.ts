@@ -2,8 +2,12 @@ import { day_template } from './template';
 
 const _NOW = new Date();
 
-console.log(day_template["0"]);
+function calcDay() {
+  
+}
 
-export function when(inputTime: string) {
-  return `Hello from ${inputTime}`;
+export function when(inputTime: string):string {
+  const index = new Date(inputTime).getDate() - _NOW.getDate();
+  console.log(new Date(inputTime).getDate(), _NOW.getDate())
+  return day_template[index.toString()];
 }

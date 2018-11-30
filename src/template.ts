@@ -1,4 +1,4 @@
-export const day_template = {
+export const day_template:{ [key:string]: any } = {
   "0": "今天",
   "1": "明天",
   "2": "后天",
